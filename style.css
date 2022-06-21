@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  html {
+    background-image:url(rain2.jpg);
+  }
+
+  .container {
+     width: 300;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     text-align:center;
+     background-color:#fff;
+     opacity:80%;
+     padding: 50px;
+     border-radius: 5px;
+     box-shadow: 5px 10px 8px #2A3132;
+  }
+
+  form .button {
+    height: 45px;
+  }
+
+  form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(156, 131, 161);
+    letter-spacing: 1px;
+    border-radius: 5px;
+  }
